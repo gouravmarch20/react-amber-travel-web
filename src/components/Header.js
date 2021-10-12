@@ -7,7 +7,7 @@ const Header = ({ heading, paragraph, children, image }) => {
     poster: '/assets/images/screen.png',
     logo: '/assets/images/logo.png'
   })
-//   const { push } = useHistory()
+    // const { push } = useHistory()
   const goToHome = () => {
     // push('/')
   }
@@ -20,7 +20,9 @@ const Header = ({ heading, paragraph, children, image }) => {
       </div>
       <div className='header__video'>
         {image ? (
-          {/* <LazyLoadImage src={image} alt={image} /> */}
+          {
+            /* <LazyLoadImage src={image} alt={image} /> */
+          }
         ) : (
           <video
             src={state.video}
