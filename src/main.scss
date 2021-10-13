@@ -1,3 +1,8 @@
 @use "scss/base/base";
-
+// -- utils __> globall css
+@use "scss/utils/utils";
 @use "scss/components/header";
+@use "scss/components/model";
+
+// buttom code
+@use "scss/abstracts/buttons";

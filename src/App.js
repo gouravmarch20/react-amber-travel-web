@@ -4,11 +4,16 @@ import React from 'react'
 import Home from './pages/Home'
 // contexts
 import ModelContext from './context/contexts/ModelContext'
+// provider
+import ModelProvider from './context/providers/ModelProvider'
+
 const App = () => {
   console.log(ModelContext)
   return (
     <div>
-      <Home />
+      <ModelProvider>
+        <Home />
+      </ModelProvider>
     </div>
   )
 }
