@@ -11,8 +11,8 @@ const gallery = [
 	},
 	{
 		id: 3,
-		name: 'Turkey',
-		image: '/assets/gallery/turkey.jpg',
+		name: 'India',
+		image: '/assets/gallery/india.jpg',
 	},
 	{
 		id: 4,

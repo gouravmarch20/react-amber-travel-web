@@ -14,9 +14,9 @@ import Footer from '../components/footer/Footer';
 const Home = () => {
 	const { dispatch } = useContext(ModelContext);
 	const [state] = useState({
-		heading: 'We are travel friends',
+		heading: 'Travel Beyond Limits.',
 		paragraph:
-			'Come and join us we travel the most famous and beautiful places in the world',
+			'Start your travel at an affordable price with  Amber Travels',
 	});
 	const [registerModel] = useState('registerModel');
 	const [loginModel] = useState('loginModel');
@@ -26,7 +26,7 @@ const Home = () => {
 	return (
 		<>
 			<Helmet>
-				<title>Travel Friends</title>
+				<title> Amber Travels </title>
 				<meta
 					name='description'
 					content='Travel to the world with travel frirends'

@@ -22,7 +22,7 @@ const Footer = () => {
 						</div>
 					</div>
 					<div className='footer__bottom'>
-						<p>&copy; copy right travel friends {new Date().getFullYear()}</p>
+						<p>&copy; copy right Amber travels &#10169; {new Date().getFullYear()}</p>
 					</div>
 				</div>
 			</div>

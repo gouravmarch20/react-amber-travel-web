@@ -9,7 +9,7 @@ const Services = () => {
 
 	const [state] = useState({
 		heading:
-			'why customers love travel friends? because we provide unique services.',
+			'why customers love amber travel? because we provide unique services.',
 		subHeading:
 			'Our aim is to provide professional and unique services to customers, and we have provided high quality services to our customers thats why they love travel friends.',
 	});

@@ -71,12 +71,12 @@ export const destinations = [
 	},
 	{
 		id: 8,
-		name: 'Turkey',
+		name: 'India',
 		details:
-			'Turkey, country that occupies a unique geographic position, lying partly in Asia and partly in Europe. Throughout its history it has acted as both a barrier and a bridge between the two continents.',
-		image: '/assets/destinations/turkey.jpg',
-		bigImage: '/assets/destinations/turkeyBig.jpg',
-		language: 'Turkish',
-		currency: 'lira',
+			'One of the oldest civilisations . India is a home to the finest architectural heritage, serene ghats, spectacular landscapes of Himalayan Mountain ,The Indo-Gangetic Plains ,Thar Desert ,Coastal Plains,Islands  .',
+		image: '/assets/destinations/india.jpg',
+		bigImage: '/assets/destinations/indiaBig.jpg',
+		language: 'Hindi',
+		currency: 'Indian rupee',
 	},
 ];

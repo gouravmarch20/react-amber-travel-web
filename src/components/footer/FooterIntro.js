@@ -4,7 +4,7 @@ const FooterIntro = () => {
 	const [state] = useState({
 		logo: '/assets/footer/logo.png',
 		intro:
-			'Travel friends is a traveling agency, we arrange tours to the world famous and most beautiful countries, Since 2005 we provide high quality services to our valuable customers.',
+			'Amber travel is a traveling agency, we arrange tours to the world famous and most beautiful countries, Since 2002 we provide high quality services to our valuable customers.',
 	});
 	return (
 		<div className='footer__intro'>
